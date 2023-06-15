@@ -3,10 +3,13 @@
 /* Start of my design */
 .front img{
     width: 100%;
+    border-radius: 7px;
 }
 
  :root{
     --font-1: 'Roboto', sans-serif;
+    --color-1: rgba(239, 235, 206, 1);
+    --color-2: rgba(163, 163, 128, 1);
 
 }
 
@@ -14,4 +17,19 @@ h1 {
     font-family: var(--font-1);
 }
 
+.front{
+    border-radius: 7px;
+    background-color: var(--color-1);
+    padding: 10px;
+}
+
+.back{
+    border-radius: 7px;
+    background-color: var(--color-2);
+    padding: 10px;
+}
+
+a{
+    display: block;
+}
 

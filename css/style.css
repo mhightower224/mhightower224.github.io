@@ -1,35 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
 
 /* Start of my design */
 .front img{
     width: 100%;
     border-radius: 7px;
+    
 }
 
  :root{
     --font-1: 'Roboto', sans-serif;
+    --font-2: font-family: 'Kanit', sans-serif;
     --color-1: rgba(239, 235, 206, 1);
     --color-2: rgba(163, 163, 128, 1);
+    --color-3: rgba(70, 63, 58, 1);
 
 }
 
+
 h1 {
-    font-family: var(--font-1);
+    font-family: var(--font-2);
+    text-align: center;
+    color: var(--color-3);
+}
+
+p{
+    color: var(--color-3);
 }
 
 .front{
     border-radius: 7px;
     background-color: var(--color-1);
     padding: 10px;
+    box-shadow: 0px 15px 35px -5px rgba(35, 40, 46, 0.32);
 }
 
 .back{
     border-radius: 7px;
     background-color: var(--color-2);
     padding: 10px;
+    box-shadow: 0px 15px 35px -5px rgba(35, 40, 46, 0.32);
 }
 
 a{
     display: block;
 }
+
+
 
